@@ -29,7 +29,7 @@ import os
 # Load environment variables from .env file
 load_dotenv()
 
-# Use VS Code to run task directly from .py file, rather than inputting inspect eval command in terminal
+# I personally like to use VS Code to run task directly from .py file, rather than inputting inspect eval command in terminal -- it's more reliable
 @task
 def coT_multihop():
     return Task(
