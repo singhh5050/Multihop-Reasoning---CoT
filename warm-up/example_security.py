@@ -12,7 +12,7 @@ This run will demonstrate a custom system prompt as well as model grading of out
 """
 
 # The following packages don't run on Python 3.12 -- I had to switch my interpreter to 3.11.7
-from inspect_ai import Task, eval, task
+from inspect_ai import Task, task
 from inspect_ai.dataset import example_dataset
 from inspect_ai.scorer import model_graded_fact
 from inspect_ai.solver import generate, system_message
