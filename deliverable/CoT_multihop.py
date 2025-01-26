@@ -8,7 +8,7 @@ The initial dataset is quite large, so in efforts to reduce API calls, I downsam
 > Q4: Purely Symbolic
 > Q5: Purely Arithmetic
 
-This run will demonstrate a custom system prompt as well as model grading of output. In addition, we have included a chain-of-thought solving process --- this program will serve as our experimental trial, so to speak.
+In addition to generate(), I have included a chain-of-thought solving process --- this program will serve as our experimental trial, so to speak.
 
 """
 

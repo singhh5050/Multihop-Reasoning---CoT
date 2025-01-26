@@ -8,7 +8,7 @@ The initial dataset is quite large, so in efforts to reduce API calls, I downsam
 > Q4: Purely Symbolic
 > Q5: Purely Arithmetic
 
-This run will demonstrate a custom system prompt as well as model grading of output. However, it DOES NOT include Chain of Thought reasoning. We have left out that solving process so that this can serve as a baseline.
+This run DOES NOT include Chain of Thought reasoning. I have left out that solving process so that generate() can serve as a baseline.
 
 """
 
