@@ -1,4 +1,4 @@
-# Evaluating GPT-4’s Multihop Reasoning with Chain-of-Thought Using Inspect
+# Evaluating GPT-4o-mini’s Multihop Reasoning with Chain-of-Thought Using Inspect
 
 ## Introduction
 
