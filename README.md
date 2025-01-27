@@ -42,7 +42,7 @@ One potential explanation involves the cognitive load imposed on the model durin
 
 Another limitation is the sample size. In efforts to keep my expenditure on API calls low, I artificially constrained the dataset to n = 5, making it difficult — even with multiple trials — to accurately assess the relationship between CoT and multihop reasoning.
 
-I plan on revamping my current analysis very soon (a.k.a. after my linear algebra midterm) with much more analysis — as well as additional solving techniques other than CoT. I’m particularly interested in the `self_critique()` filter — I’m curious how the model can self-iterate on its own response to deliver hopefully-better-than-average performance!
+I plan on revamping my current analysis very soon (a.k.a. after my linear algebra midterm) with much more analysis — as well as additional solving techniques other than CoT. I’m particularly interested in the `self_critique()` filter: I’m curious how the model can self-iterate on its own response to deliver hopefully-better-than-average performance!
 
 ## Appendix: Question-by-Question
 
@@ -65,4 +65,4 @@ The data I selected includes many lines of context to give the model the informa
 
 **Question 3** stumped GPT-4o-mini across the board. I think it's because it requires a unique combination of symbolic and arithmetic reasoning — as well as a complicated reverse function that in general heightens complexity, particularly for a model not optimized for multi-step numerical transformations. LLMs were initially designed to identify patterns within text, not mathematical calculations, and although this capability is growing fast, it may still lag behind when faced with tasks that involve multiple layers of not-just-math-related logic.
 
-Only one trial was able to answer **Question 5**. According to MoreHopQA, this one actually only contains the arithmetic reasoning type, so at first glance, poor performance doesn’t make total sense. Ultimately, I think LLMs just sort of…suck with prime numbers. The distribution of prime numbers is irregular and unpredictable, making it hard for an LLM to learn patterns based on the sparse (and non-probabilistic) prime-number-related data it’s exposed to.
+Only one trial was able to answer **Question 5**. According to MoreHopQA, this one actually only contains the arithmetic reasoning type, so at first glance, poor performance doesn’t make total sense. Ultimately, I think LLMs just sort of…suck with prime numbers. The distribution of prime numbers is irregular and unpredictable, making it hard for an LLM to learn patterns based on the sparse (and non-probabilistic) prime-number-related data it’s been exposed to.
